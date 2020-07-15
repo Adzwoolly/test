@@ -2,5 +2,5 @@ import requests
 
 print('Hello there!')
 
-response = requests.get('example.com')
+response = requests.get('https://example.com')
 print(response.text)
